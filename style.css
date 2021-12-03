@@ -1,0 +1,42 @@
+body {
+    background-color: lightsteelblue;
+    color: black;
+    padding-left: 15px;
+    font-family: Tahoma;
+    background-image: url("img/backphoto.jpeg") ;
+    background-size: cover;
+}
+
+.bloc-text {
+    color: #ac5536;
+    text-align: justify;
+    padding: 12px;
+    font-family: Roboto;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    width: 650px;
+
+}
+
+.boutonenvoyer{
+    background-color: #ac5536;
+    color: white;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+.monchampemail{
+    border-radius: 5px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+footer {
+    color: white;
+    position:absolute;
+    bottom:0;
+    font-size: 15px;
+}

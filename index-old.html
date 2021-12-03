@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Menu de navigation du site -->
+<ol>
+    <li class="menu droite"><a href="#about">PANIER &#x1F6D2;</a></li>
+    <li class="menu"><a href="page2.html">LA MARQUE</a></li>
+    <li class="menu"><a href="news.asp">JOURNAL</a></li>
+    <li class="menu"><a href="about.asp">Contact</a></li>
+    <!-- <li class="menu centre"><a href="about.asp">Expérience professionnelle</a></li>
+    <li class="menu centre"><a href="about.asp">Formation</a></li> -->
+    <li class="menu"><a class="active" href="index.html">Accueil</a></li>
+</ol>
+<br>
+    <!--<div class="bloc-text">-->
+        <h1> VOUS VOULEZ ÊTRE CHIC ET CHAUD CET HIVER ?</h1>
+        <h2>Profitez d'un cadeau exceptionnel</h2>
+        <h3>Inscrivez-vous, précommandez et profitez de notre livraison gratuite.</h3>
+        <p>Pour participer, nous vous invitons à remplir notre formulaire, précommandez avec le code que vous recevrez ensuite.<br>
+           N'oubliez pas de vous abonner à notre newsletter et de nous suivre sur nos réseaux sociaux pour ne pas manquer <br> nos promotions, événements et conseils.</p>
+    </div>
+
+<form action="formulaire" method="post" >
+    <fieldset>
+        <legend>Vos coordonnées :</legend>
+        <label for="email">Votre email :</label>
+        <input type="email" name="email" size="20"
+               maxlength="40" value="email" id="email" />
+
+        <label for="comments">Vos commentaires :</label>
+        <textarea name="comments" id="comments" cols="20" rows="4">
+   </textarea>
+    </fieldset>
+    <fieldset>
+        <legend> A propos des CSS : </legend>
+        <p>Savez-vous ce que veut dire CSS ? : </p>
+        <input type="radio" name="CSS" value="oui" id="oui"
+               checked="checked" />
+        <label for="oui" class="inline">oui</label>
+        <input type="radio" name="CSS" value="non" id="non" />
+        <label for="non" class="inline">non</label>
+
+        <label for="utilise">Si oui, les utilisez-vous plutôt : </label>
+        <select name="utilise" id="utilise">
+            <option value="toujours"> toujours</option>
+            <option value="parfois"> parfois</option>
+            <option value="jamais"> jamais</option>
+        </select>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Envoyer" />
+        <input type="reset" value="Annuler" />
+    </p>
+</form>
+    </body>
+    <footer>
+        <div id="pie">© 2021 CV Dana Cano</div>
+    </footer>
+    </html>
